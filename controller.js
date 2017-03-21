@@ -1,6 +1,5 @@
-//Módulo (Dentro del tag html)
-var app = angular.module("Menu",[]); //Recibe 2 parámetros NOMBRE DEL MÓDULO y MÓDULOS DE LOS CUALES ÉSTE DEPENDE.
-//CONTROLADOR (Dentro del tag Body)
+//@Leopp33
+var app = angular.module("Menu",[]); 
 app.controller("ControladorLinks",function($scope){
 
   $scope.nuevoComentario = {};
